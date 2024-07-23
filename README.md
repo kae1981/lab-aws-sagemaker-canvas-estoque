@@ -40,9 +40,9 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 -   Use o modelo treinado para fazer previsões de estoque.
 -   Exporte os resultados e analise as previsões geradas.
+-   ![imagem]https://d-w065vegmauk7.studio.us-east-1.sagemaker.aws/canvas/default/models/Estoque
+-   ![imagem]https://d-w065vegmauk7.studio.us-east-1.sagemaker.aws/canvas/default/models/Estoque
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões. (segue abaixo os resultados mudando as metricas de flag_promoção e data)
--   ![imagem]C:\Users\Prefeitura\Downloads\single_prediction_results (1).png
--   ![imagem]C:\Users\Prefeitura\Downloads\single_prediction_results.png
 
 ## 🤔 Dúvidas?
 
