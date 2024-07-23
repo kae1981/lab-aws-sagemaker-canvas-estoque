@@ -26,21 +26,23 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ### 2. Construir/Treinar
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
+-   No SageMaker Canvas, importe o dataset que você selecionou. (selecionei o dataset de Estoque)
+-   Configure as variáveis de entrada e saída de acordo com os dados. (coloquei como Target o Preço)
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
+-   Após o treinamento, examine as métricas de performance do modelo. (foram analisados 100 produtos, onde quando foi alterada a flag_promoção,tinha uma elevação no preço)
+-   Verifique as principais características que influenciam as previsões. (identifiquei como principal caracteristica que influenciou os preços foi a flag_promoção)
 -   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
 
 ### 4. Prever
 
 -   Use o modelo treinado para fazer previsões de estoque.
 -   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+-   Documente suas conclusões e qualquer insight obtido a partir das previsões. (segue abaixo os resultados mudando as metricas de flag_promoção e data)
+-   ![imagem]C:\Users\Prefeitura\Downloads\single_prediction_results (1).png
+-   ![imagem]C:\Users\Prefeitura\Downloads\single_prediction_results.png
 
 ## 🤔 Dúvidas?
 
